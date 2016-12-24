@@ -1,0 +1,9 @@
+once:
+git remote add upstream https://github.com/boxen/our-boxen.git
+
+always:
+git fetch upstream
+git merge upstream/master
+git mergetool
+git commit
+
