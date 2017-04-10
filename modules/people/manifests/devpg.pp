@@ -1,18 +1,14 @@
 class people::devpg {
 
   ###
-  # Atom includes some additional packages
-  include atom
-  atom::package { 'linter': }
-  atom::theme { 'monokai': }
-
-  ###
   # Packages via homebrew
-  package { 'mas': }
+  package { 'mas':
+  }
 
   ###
   # Packages via cask
   $cask_packages = [
+    'atom',
     'slack',
     'moom',
     'google-chrome',
