@@ -16,7 +16,9 @@ class people::devpg {
     'vlc',
     'evernote',
     'whatsapp',
-    'tweeten'
+    'tweeten',
+    'mattermost',
+    'github-desktop'
   ]
   package {
     $cask_packages:
