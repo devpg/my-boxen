@@ -26,7 +26,7 @@ class people::devpg {
   ]
   package {
     $cask_packages:
-    provider  => 'brewcask'
+    provider => 'brewcask'
   }
 
   ###
