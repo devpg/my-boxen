@@ -2,7 +2,11 @@ class people::devpg {
 
   ###
   # Packages via homebrew
-  package { 'mas': }
+  $brew_packages = [
+    'mas',
+    'slurm'
+  ]
+  package {$brew_packages: }
 
   ###
   # Packages via cask
