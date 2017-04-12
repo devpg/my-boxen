@@ -8,6 +8,7 @@ class people::devpg {
   ]
   package {$brew_packages: }
 
+
   ###
   # Packages via cask
   $cask_packages = [
