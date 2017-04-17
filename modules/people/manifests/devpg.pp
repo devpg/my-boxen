@@ -22,7 +22,8 @@ class people::devpg {
     'whatsapp',
     'tweeten',
     'mattermost',
-    'github-desktop'
+    'github-desktop',
+    'dropbox'
   ]
   package {
     $cask_packages:
