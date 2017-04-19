@@ -24,7 +24,8 @@ class people::devpg {
     'mattermost',
     'github-desktop',
     'dropbox',
-    'spotify'
+    'spotify',
+    'forklift'
   ]
   package {
     $cask_packages:
