@@ -23,9 +23,9 @@ class people::devpg {
     'tweeten',
     'mattermost',
     'github-desktop',
-    'dropbox',
     'spotify',
-    'forklift'
+    'forklift',
+    'macpass'
   ]
   package {
     $cask_packages:
