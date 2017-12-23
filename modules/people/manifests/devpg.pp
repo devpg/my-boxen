@@ -25,7 +25,8 @@ class people::devpg {
     'github-desktop',
     'spotify',
     'forklift',
-    'macpass'
+    'macpass',
+    'etcher'
   ]
   package {
     $cask_packages:
